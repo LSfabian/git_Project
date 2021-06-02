@@ -1,0 +1,43 @@
+TERMINAL O GITBASH ***********************************************************************************************************************
+pwd = muestra el nombre de la carpeta actual
+clear = limpiar la terminal
+crt + u = borra 1 linea
+ls = muestra lo que contiene la carpeta
+git --version = muestra la version de una aplicacion en este caso de git
+ls -l = muestra los permisos del contenido la carpera actual
+ls -a = muestra el contenido hasta los ocultos
+ls -la = muestra las carpetas 
+dir = muestra todos los directorios y archivos dentro del directorios
+cd = cambiar de directorio agregandole la ruta o el nombre de la carpeta
+. = navega hacia atras
+.. = navega hacia atras
+mkdir = crea una carpeta la estrcutura es "mkdir nombre_de_la_carpeta"
+cp = copiar una carpeta la estructura es "cp nombre_de_la_carpeta_a_copiar nombre_de_la_carpeta_donde_se_copiara"
+cd ~ = me manda a la raiz del sistema
+mv = mover o remonbrar archivos
+-r = indica que se esta seleccionando la carpeta completa y con lo que tenga adentro
+rm -r = borra la carpeta la estructura es "rm -r nombre_de_la_carpeta_a_borrar"
+vim = crea o abrir un archivo
+ESC + :wq = guardar y salir del archivo
+cat = visualiza el contenido del archivo
+cat -n = muestra el numero de lineas y visualiza el archivo la estructura es "cat -n nombre_del_archivo"
+cd ruta_de_la_carpeta_arrastrandola = abre la carpeta de la ruta. la ruta se puede colocar solo arrastarndo la carpeta
+*******************************************************************************************************************************************
+GIT: Sistema de control de versiones
+
+git config --global user.name "nombre_usuario" = guardar un nombre de nombre_usuario
+
+git.init = inicializa un reporsitorio
+git branch nombre_de_la_rama = crea la rama
+git checkout -b nombre_de_la_rama = crea una rama
+git checkout nombre_de_la_rama = cambia de rama
+git branch -a = muestra la rama en la que estoy
+git status = muestra los cambios
+git add nombre_del_archivo = agrega el archivo
+git add . = agrega todos los archivos
+git rm --cached nombre_del_archivo = elimina el archivo del commit
+git commit -m "mensaje descriptivo del cambio que se esta haciendo" = agrega el archivo al reporsitorio
+
+
+
+
