@@ -38,7 +38,10 @@ git add . = agrega todos los archivos
 git rm --cached nombre_del_archivo = elimina el archivo del commit
 git commit -m "mensaje descriptivo del cambio que se esta haciendo" = agrega el archivo al reporsitorio
 git log = historial de los commit
-git push -u origin nombre del reposictorio = empuja la rama al repositorio
+git push -u origin nombre_del_repositorio = empuja la rama al repositorio
+
+git brach -D nombre_de_la_rama = borra la rama
+git reflog = muestra todos los movimientos
 
 
 
