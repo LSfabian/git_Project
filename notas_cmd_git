@@ -31,6 +31,8 @@ git.init = inicializa un reporsitorio
 git branch nombre_de_la_rama = crea la rama
 git checkout -b nombre_de_la_rama = crea una rama
 git checkout nombre_de_la_rama = cambia de rama
+git brach -D nombre_de_la_rama = borra la rama
+git checkout numero_de_id_del_commit = me posiciona en ese commit
 git branch -a = muestra la rama en la que estoy
 git status = muestra los cambios
 git add nombre_del_archivo = agrega el archivo
@@ -38,11 +40,8 @@ git add . = agrega todos los archivos
 git rm --cached nombre_del_archivo = elimina el archivo del commit
 git commit -m "mensaje descriptivo del cambio que se esta haciendo" = agrega el archivo al reporsitorio
 git log = historial de los commit
+git reflog = muestra todos los movimientos
 
 git branch -M main = hace de main la rama principal
 git remote add origin https://github.com/LSfabian/git_Project.git = establece una conexion al repositorio en la nube
 git push -u origin main = empuja el repositorio a gitHub, con el -u sirve para que cada vez que se vaya a empujar no seria necesario en nombre de la rama es decir asi solo asi = git push
-
-git brach -D nombre_de_la_rama = borra la rama
-git reflog = muestra todos los movimientos
-
