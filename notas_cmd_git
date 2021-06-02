@@ -38,10 +38,11 @@ git add . = agrega todos los archivos
 git rm --cached nombre_del_archivo = elimina el archivo del commit
 git commit -m "mensaje descriptivo del cambio que se esta haciendo" = agrega el archivo al reporsitorio
 git log = historial de los commit
-git push -u origin nombre_del_repositorio = empuja la rama al repositorio
+
+git branch -M main = hace de main la rama principal
+git remote add origin https://github.com/LSfabian/git_Project.git = establece una conexion al repositorio en la nube
+git push -u origin main = empuja el repositorio a gitHub, con el -u sirve para que cada vez que se vaya a empujar no seria necesario en nombre de la rama es decir asi solo asi = git push -u
 
 git brach -D nombre_de_la_rama = borra la rama
 git reflog = muestra todos los movimientos
-
-
 
