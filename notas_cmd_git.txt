@@ -54,15 +54,18 @@ git push -u origin main = empuja el repositorio a gitHub, con el -u sirve para q
 code nombre_de_archivo = abre el archivo en VS. "code ." = abrir en VS la carpeta o archivo
 code . nombre de la carpeta = abre la carpeta en VS
 git clone url_del_repositorio = clona un repositorio que esta en la nube a local en la carpeta que este posicionado
+git fetch = valida que hay de nuevo en el repositorio
+git pull origin main = actualizar el repositorio con los cambios que alguien le hizo, debe estar posicionado en la carpeta
 
 git clone https://github.com/Vicmi13/master-gangsters-8 = clona un repositorio que esta en la nube a local en la carpeta que este posicionado
 git clone -b develop --single-branch https://github.com/Vicmi13/master-gangsters-8 = clona una rama especifica en este caso develop
 
-git fetch = valida que hay de nuevo en el repositorio
-git pull origin main = actualizar el repositorio con los cambios que alguien le hizo, debe estar posicionado en la carpeta
+PARA ACTUALIZAR EL REPOSITORIO QUE CLONE DE LA CLASE:
+cd = posicionarme en la carpeta local del repositorio
+git pull origin develop = actualizar el repositorio con los cambios que alguien le hizo, debe estar posicionado en la carpeta
 
 PARA ACTUALIZAR EL REPOSITORIO QUE YO SUBI =
-git cd = posicionarme en la carpeta local del repositorio
+cd = posicionarme en la carpeta local del repositorio
 git brach = Validar la rama
 git add . = Agregar archivos
 git commit -m "mensaje del commit" = Agregar el commit
