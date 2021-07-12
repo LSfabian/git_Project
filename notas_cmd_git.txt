@@ -70,3 +70,4 @@ git brach = Validar la rama
 git add . = Agregar archivos
 git commit -m "mensaje del commit" = Agregar el commit
 git push = Empuja o envia los archivos a git
+
