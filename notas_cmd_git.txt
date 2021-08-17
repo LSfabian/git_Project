@@ -29,6 +29,8 @@ GIT: Sistema de control de versiones
 git config --global user.name "nombre_usuario" = guardar un nombre de nombre_usuario
 
 git.init = inicializa un reporsitorio
+rmdir .git = deshacer git.init
+rmdir /s .git = deshacer git.init si la carpeta .git tiene subcarpetas
 git branch nombre_de_la_rama = crea la rama
 git checkout -b nombre_de_la_rama = crea una rama
 git checkout nombre_de_la_rama = cambia de rama
