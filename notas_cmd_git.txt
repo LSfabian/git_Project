@@ -28,6 +28,7 @@ GIT: Sistema de control de versiones
 
 git config --global user.name "nombre_usuario" = guardar un nombre de nombre_usuario
 git config --global user.email johndoe@example.com
+Set-ExecutionPolicy Unrestricted = para dar permisos cuando no sirven los comandos en powr shell se ejecura esto
 
 git.init = inicializa un reporsitorio
 rmdir .git = deshacer git.init
