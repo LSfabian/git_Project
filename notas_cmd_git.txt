@@ -27,6 +27,7 @@ cd ruta_de_la_carpeta_arrastrandola = abre la carpeta de la ruta. la ruta se pue
 GIT: Sistema de control de versiones
 
 git config --global user.name "nombre_usuario" = guardar un nombre de nombre_usuario
+git config --global user.email johndoe@example.com
 
 git.init = inicializa un reporsitorio
 rmdir .git = deshacer git.init
